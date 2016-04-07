@@ -1,0 +1,23 @@
+table, th, td {
+   border: 1.5px solid black;
+   text-align: left
+}
+
+table{
+    border-collapse: collapse;
+}
+
+tr:nth-child(even) {background-color: #FF0000}
+tr:nth-child(odd) {background-color: #00FF00}
+tr:nth-child(1) {background-color: #FFFF00}
+
+tr:hover {background-color: #FF00FF}
+
+.button {
+    background-color: #008CBA;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+}
